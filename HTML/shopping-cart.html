@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <head>
+	 <meta charset="UTF-8">
+	 <title>Ganesha </title>
+	 <link rel="stylesheet" type="text/css" href="ganesha.css"/>
+	  <link rel="stylesheet" type="text/css" href="shopping-cart.css"/>
+	</style>
+	 </head>
+	 <body>
+	    <ul>
+             <li><a href="home1.html">Home</a></li>
+             <li><a href="order.html">Order</a></li>
+             <li><a href="checkout.html">Checkout</a></li>
+			 <li><a href="shopping-cart.html">Shopping cart</a></li>
+			 <li><a href="contact1.html">Contact</a></li>
+            <!-- <li style="float:right"><a class="active" href="#about">About</a></li>-->
+        </ul>
+		
+		 <center><h1>Shopping Cart</h1></center> 
+         <!--<script src="cart.js">
+		</script>-->		
+         <div class="shopping-cart">
+         <div class="column-labels">
+         <label class="product-image">Image</label>
+         <label class="product-price">Price</label>
+         <label class="product-quantity">Quantity</label>
+         <label class="product-removal">Remove</label>
+         <label class="product-line-price">Total</label>
+         </div>
+		 
+		  <!--<div class="product">
+    <div class="product-image">
+      <img src="C:\Users\Yogita\Pictures\Ganesha\g6.jpg" alt="Ganpatti Bappa">
+    </div>
+    <div class="product-price">1111</div>
+    <div class="product-quantity">
+      <input type="number" value="3" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">33333</div>
+  </div>-->
+
+		 <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+     <!-- <div class="totals-value" id="cart-subtotal">XYZ</div>
+    </div>-->
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <!--<div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <!--<div class="totals-value" id="cart-shipping">15.00</div>
+    </div>-->
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <!--<div class="totals-value" id="cart-total">90.57</div>
+    </div>-->
+  </div>
+
+</div>
+		<center>
+		<button type="button" class="button2" onclick="window.location.href='shopping-cart.html'">Update Cart</button>
+		<button type="button" class="button2" onclick="window.location.href=''">Empty Cart</button>
+		<button type="button" class="button2" onclick="window.location.href='home1.html'">Continue Shopping</button>
+		<button type="button" class="button2" onclick="window.location.href='checkout.html'">Go to Checkout</button>
+		</center>
+	  </body>
+</html>
